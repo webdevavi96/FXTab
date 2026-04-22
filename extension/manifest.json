@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "FXTab",
+  "version": "1.0",
+  "description": "This extension is based on Demon Slayer: Kimetsu No Yaiba: The Movie: Infinity Castle. Show your love for this extension guys.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "assets/128x128.png",
+    "32": "assets/128x128.png",
+    "48": "assets/128x128.png",
+    "128": "assets/128x128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/128x128.png",
+      "32": "assets/128x128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ]
+}
