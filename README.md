@@ -23,17 +23,6 @@ A Chrome extension for enhanced tabbed browsing and workspace management.
 - Right-click on tabs for quick actions
 - Use keyboard shortcuts to navigate between tabs
 
-## Configuration
-
-Configure FXTab in the extension options:
-
-```json
-{
-    "fxtab.enable": true,
-    "fxtab.groupTabs": true
-}
-```
-
 ## Support
 
 For issues or feature requests, please visit the [repository](https://github.com/webdevavi96/FXTab).
